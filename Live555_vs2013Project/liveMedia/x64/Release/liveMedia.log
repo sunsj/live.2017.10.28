@@ -1,0 +1,478 @@
+﻿生成启动时间为 2017/11/25 16:23:43。
+     1>项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\liveMedia\liveMedia.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\UsageEnvironment\include /I..\..\liveMedia\include /I..\..\groupsock\include /I..\..\BasicUsageEnvironment\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\liveMedia\AC3AudioFileServerMediaSubsession.cpp ..\..\liveMedia\AC3AudioRTPSink.cpp ..\..\liveMedia\AC3AudioRTPSource.cpp ..\..\liveMedia\AC3AudioStreamFramer.cpp ..\..\liveMedia\ADTSAudioFileServerMediaSubsession.cpp ..\..\liveMedia\ADTSAudioFileSource.cpp ..\..\liveMedia\AMRAudioFileServerMediaSubsession.cpp ..\..\liveMedia\AMRAudioFileSink.cpp ..\..\liveMedia\AMRAudioFileSource.cpp ..\..\liveMedia\AMRAudioRTPSink.cpp ..\..\liveMedia\AMRAudioRTPSource.cpp ..\..\liveMedia\AMRAudioSource.cpp ..\..\liveMedia\AudioInputDevice.cpp ..\..\liveMedia\AudioRTPSink.cpp ..\..\liveMedia\AVIFileSink.cpp ..\..\liveMedia\Base64.cpp ..\..\liveMedia\BasicUDPSink.cpp ..\..\liveMedia\BasicUDPSource.cpp ..\..\liveMedia\BitVector.cpp ..\..\liveMedia\ByteStreamFileSource.cpp ..\..\liveMedia\ByteStreamMemoryBufferSource.cpp ..\..\liveMedia\ByteStreamMultiFileSource.cpp ..\..\liveMedia\DeviceSource.cpp ..\..\liveMedia\DigestAuthentication.cpp ..\..\liveMedia\DVVideoFileServerMediaSubsession.cpp ..\..\liveMedia\DVVideoRTPSink.cpp ..\..\liveMedia\DVVideoRTPSource.cpp ..\..\liveMedia\DVVideoStreamFramer.cpp ..\..\liveMedia\EBMLNumber.cpp ..\..\liveMedia\FileServerMediaSubsession.cpp ..\..\liveMedia\FileSink.cpp ..\..\liveMedia\FramedFileSource.cpp ..\..\liveMedia\FramedFilter.cpp ..\..\liveMedia\FramedSource.cpp ..\..\liveMedia\GenericMediaServer.cpp ..\..\liveMedia\GSMAudioRTPSink.cpp ..\..\liveMedia\H261VideoRTPSource.cpp ..\..\liveMedia\H263plusVideoFileServerMediaSubsession.cpp ..\..\liveMedia\H263plusVideoRTPSink.cpp ..\..\liveMedia\H263plusVideoRTPSource.cpp ..\..\liveMedia\H263plusVideoStreamFramer.cpp ..\..\liveMedia\H263plusVideoStreamParser.cpp ..\..\liveMedia\H264or5VideoFileSink.cpp ..\..\liveMedia\H264or5VideoRTPSink.cpp ..\..\liveMedia\H264or5VideoStreamDiscreteFramer.cpp ..\..\liveMedia\H264or5VideoStreamFramer.cpp ..\..\liveMedia\H264VideoFileServerMediaSubsession.cpp ..\..\liveMedia\H264VideoFileSink.cpp ..\..\liveMedia\H264VideoRTPSink.cpp ..\..\liveMedia\H264VideoRTPSource.cpp ..\..\liveMedia\H264VideoStreamDiscreteFramer.cpp ..\..\liveMedia\H264VideoStreamFramer.cpp ..\..\liveMedia\H265VideoFileServerMediaSubsession.cpp ..\..\liveMedia\H265VideoFileSink.cpp ..\..\liveMedia\H265VideoRTPSink.cpp ..\..\liveMedia\H265VideoRTPSource.cpp ..\..\liveMedia\H265VideoStreamDiscreteFramer.cpp ..\..\liveMedia\H265VideoStreamFramer.cpp ..\..\liveMedia\InputFile.cpp ..\..\liveMedia\JPEGVideoRTPSink.cpp ..\..\liveMedia\JPEGVideoRTPSource.cpp ..\..\liveMedia\JPEGVideoSource.cpp ..\..\liveMedia\Locale.cpp ..\..\liveMedia\MatroskaDemuxedTrack.cpp ..\..\liveMedia\MatroskaFile.cpp ..\..\liveMedia\MatroskaFileParser.cpp ..\..\liveMedia\MatroskaFileServerDemux.cpp ..\..\liveMedia\MatroskaFileServerMediaSubsession.cpp ..\..\liveMedia\Media.cpp ..\..\liveMedia\MediaSession.cpp ..\..\liveMedia\MediaSink.cpp ..\..\liveMedia\MediaSource.cpp ..\..\liveMedia\MP3ADU.cpp ..\..\liveMedia\MP3ADUdescriptor.cpp ..\..\liveMedia\MP3ADUinterleaving.cpp ..\..\liveMedia\MP3ADURTPSink.cpp ..\..\liveMedia\MP3ADURTPSource.cpp ..\..\liveMedia\MP3ADUTranscoder.cpp ..\..\liveMedia\MP3AudioFileServerMediaSubsession.cpp ..\..\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp ..\..\liveMedia\MP3FileSource.cpp ..\..\liveMedia\MP3Internals.cpp ..\..\liveMedia\MP3InternalsHuffman.cpp ..\..\liveMedia\MP3InternalsHuffmanTable.cpp ..\..\liveMedia\MP3StreamState.cpp ..\..\liveMedia\MP3Transcoder.cpp ..\..\liveMedia\MPEG1or2AudioRTPSink.cpp ..\..\liveMedia\MPEG1or2AudioRTPSource.cpp ..\..\liveMedia\MPEG1or2AudioStreamFramer.cpp ..\..\liveMedia\MPEG1or2Demux.cpp ..\..\liveMedia\MPEG1or2DemuxedElementaryStream.cpp ..\..\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp ..\..\liveMedia\MPEG1or2FileServerDemux.cpp ..\..\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp ..\..\liveMedia\MPEG1or2VideoRTPSink.cpp ..\..\liveMedia\MPEG1or2VideoRTPSource.cpp ..\..\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp ..\..\liveMedia\MPEG1or2VideoStreamFramer.cpp ..\..\liveMedia\MPEG2IndexFromTransportStream.cpp ..\..\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp ..\..\liveMedia\MPEG2TransportStreamAccumulator.cpp ..\..\liveMedia\MPEG2TransportStreamFramer.cpp ..\..\liveMedia\MPEG2TransportStreamFromESSource.cpp ..\..\liveMedia\MPEG2TransportStreamFromPESSource.cpp ..\..\liveMedia\MPEG2TransportStreamIndexFile.cpp ..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp ..\..\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp ..\..\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp ..\..\liveMedia\MPEG4ESVideoRTPSink.cpp ..\..\liveMedia\MPEG4ESVideoRTPSource.cpp ..\..\liveMedia\MPEG4GenericRTPSink.cpp ..\..\liveMedia\MPEG4GenericRTPSource.cpp ..\..\liveMedia\MPEG4LATMAudioRTPSink.cpp ..\..\liveMedia\MPEG4LATMAudioRTPSource.cpp ..\..\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp ..\..\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp ..\..\liveMedia\MPEG4VideoStreamFramer.cpp ..\..\liveMedia\MPEGVideoStreamFramer.cpp ..\..\liveMedia\MPEGVideoStreamParser.cpp ..\..\liveMedia\MultiFramedRTPSink.cpp ..\..\liveMedia\MultiFramedRTPSource.cpp ..\..\liveMedia\OggDemuxedTrack.cpp ..\..\liveMedia\OggFile.cpp ..\..\liveMedia\OggFileParser.cpp ..\..\liveMedia\OggFileServerDemux.cpp ..\..\liveMedia\OggFileServerMediaSubsession.cpp ..\..\liveMedia\OggFileSink.cpp ..\..\liveMedia\OnDemandServerMediaSubsession.cpp ..\..\liveMedia\ourMD5.cpp ..\..\liveMedia\OutputFile.cpp ..\..\liveMedia\PassiveServerMediaSubsession.cpp ..\..\liveMedia\ProxyServerMediaSession.cpp ..\..\liveMedia\QCELPAudioRTPSource.cpp ..\..\liveMedia\QuickTimeFileSink.cpp ..\..\liveMedia\QuickTimeGenericRTPSource.cpp ..\..\liveMedia\RTCP.cpp ..\..\liveMedia\RTPInterface.cpp ..\..\liveMedia\RTPSink.cpp ..\..\liveMedia\RTPSource.cpp ..\..\liveMedia\RTSPClient.cpp ..\..\liveMedia\RTSPCommon.cpp ..\..\liveMedia\RTSPRegisterSender.cpp ..\..\liveMedia\RTSPServer.cpp ..\..\liveMedia\RTSPServerRegister.cpp ..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp ..\..\liveMedia\ServerMediaSession.cpp ..\..\liveMedia\SimpleRTPSink.cpp ..\..\liveMedia\SimpleRTPSource.cpp ..\..\liveMedia\SIPClient.cpp ..\..\liveMedia\StreamParser.cpp ..\..\liveMedia\StreamReplicator.cpp ..\..\liveMedia\T140TextRTPSink.cpp ..\..\liveMedia\TCPStreamSink.cpp ..\..\liveMedia\TextRTPSink.cpp ..\..\liveMedia\TheoraVideoRTPSink.cpp ..\..\liveMedia\TheoraVideoRTPSource.cpp ..\..\liveMedia\uLawAudioFilter.cpp ..\..\liveMedia\VideoRTPSink.cpp ..\..\liveMedia\VorbisAudioRTPSink.cpp ..\..\liveMedia\VorbisAudioRTPSource.cpp ..\..\liveMedia\VP8VideoRTPSink.cpp ..\..\liveMedia\VP8VideoRTPSource.cpp ..\..\liveMedia\VP9VideoRTPSink.cpp ..\..\liveMedia\VP9VideoRTPSource.cpp ..\..\liveMedia\WAVAudioFileServerMediaSubsession.cpp ..\..\liveMedia\WAVAudioFileSource.cpp
+         AC3AudioFileServerMediaSubsession.cpp
+         AC3AudioRTPSink.cpp
+         AC3AudioRTPSource.cpp
+         AC3AudioStreamFramer.cpp
+         ADTSAudioFileServerMediaSubsession.cpp
+         ADTSAudioFileSource.cpp
+     1>..\..\liveMedia\ADTSAudioFileSource.cpp(150): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         AMRAudioFileServerMediaSubsession.cpp
+         AMRAudioFileSink.cpp
+     1>..\..\liveMedia\AMRAudioFileSink.cpp(79): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         AMRAudioFileSource.cpp
+     1>..\..\liveMedia\AMRAudioFileSource.cpp(156): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         AMRAudioRTPSink.cpp
+         AMRAudioRTPSource.cpp
+         AMRAudioSource.cpp
+         AudioInputDevice.cpp
+         AudioRTPSink.cpp
+         AVIFileSink.cpp
+         Base64.cpp
+     1>..\..\liveMedia\Base64.cpp(43): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         BasicUDPSink.cpp
+         BasicUDPSource.cpp
+         BitVector.cpp
+         ByteStreamFileSource.cpp
+     1>..\..\liveMedia\ByteStreamFileSource.cpp(138): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         正在编译...
+         ByteStreamMemoryBufferSource.cpp
+         ByteStreamMultiFileSource.cpp
+         DeviceSource.cpp
+         DigestAuthentication.cpp
+     1>..\..\liveMedia\DigestAuthentication.cpp(116): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\DigestAuthentication.cpp(123): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\DigestAuthentication.cpp(131): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+         DVVideoFileServerMediaSubsession.cpp
+         DVVideoRTPSink.cpp
+     1>..\..\liveMedia\DVVideoRTPSink.cpp(89): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         DVVideoRTPSource.cpp
+         DVVideoStreamFramer.cpp
+         EBMLNumber.cpp
+         FileServerMediaSubsession.cpp
+         FileSink.cpp
+         FramedFileSource.cpp
+         FramedFilter.cpp
+         FramedSource.cpp
+         GenericMediaServer.cpp
+     1>..\..\liveMedia\GenericMediaServer.cpp(187): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+         GSMAudioRTPSink.cpp
+         H261VideoRTPSource.cpp
+         H263plusVideoFileServerMediaSubsession.cpp
+         H263plusVideoRTPSink.cpp
+         H263plusVideoRTPSource.cpp
+         正在编译...
+         H263plusVideoStreamFramer.cpp
+         H263plusVideoStreamParser.cpp
+     1>..\..\liveMedia\H263plusVideoStreamParser.cpp(210): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+         H264or5VideoFileSink.cpp
+         H264or5VideoRTPSink.cpp
+         H264or5VideoStreamDiscreteFramer.cpp
+         H264or5VideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\H264or5VideoStreamFramer.cpp(188): warning C4244: “初始化”: 从“__int64”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\H264or5VideoStreamFramer.cpp(670): warning C4018: “<”: 有符号/无符号不匹配
+         H264VideoFileServerMediaSubsession.cpp
+         H264VideoFileSink.cpp
+         H264VideoRTPSink.cpp
+     1>..\..\liveMedia\H264VideoRTPSink.cpp(119): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         H264VideoRTPSource.cpp
+         H264VideoStreamDiscreteFramer.cpp
+         H264VideoStreamFramer.cpp
+         H265VideoFileServerMediaSubsession.cpp
+         H265VideoFileSink.cpp
+         H265VideoRTPSink.cpp
+     1>..\..\liveMedia\H265VideoRTPSink.cpp(164): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         H265VideoRTPSource.cpp
+         H265VideoStreamDiscreteFramer.cpp
+         H265VideoStreamFramer.cpp
+         InputFile.cpp
+         JPEGVideoRTPSink.cpp
+         正在编译...
+         JPEGVideoRTPSource.cpp
+         JPEGVideoSource.cpp
+         Locale.cpp
+         MatroskaDemuxedTrack.cpp
+         MatroskaFile.cpp
+         MatroskaFileParser.cpp
+         MatroskaFileServerDemux.cpp
+         MatroskaFileServerMediaSubsession.cpp
+         Media.cpp
+         MediaSession.cpp
+     1>..\..\liveMedia\MediaSession.cpp(1114): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+         MediaSink.cpp
+         MediaSource.cpp
+         MP3ADU.cpp
+         MP3ADUdescriptor.cpp
+         MP3ADUinterleaving.cpp
+         MP3ADURTPSink.cpp
+         MP3ADURTPSource.cpp
+         MP3ADUTranscoder.cpp
+         MP3AudioFileServerMediaSubsession.cpp
+         MP3AudioMatroskaFileServerMediaSubsession.cpp
+         正在编译...
+         MP3FileSource.cpp
+         MP3Internals.cpp
+         MP3InternalsHuffman.cpp
+         MP3InternalsHuffmanTable.cpp
+         MP3StreamState.cpp
+     1>..\..\liveMedia\MP3StreamState.cpp(390): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MP3Transcoder.cpp
+         MPEG1or2AudioRTPSink.cpp
+         MPEG1or2AudioRTPSource.cpp
+         MPEG1or2AudioStreamFramer.cpp
+         MPEG1or2Demux.cpp
+         MPEG1or2DemuxedElementaryStream.cpp
+         MPEG1or2DemuxedServerMediaSubsession.cpp
+         MPEG1or2FileServerDemux.cpp
+         MPEG1or2VideoFileServerMediaSubsession.cpp
+         MPEG1or2VideoRTPSink.cpp
+         MPEG1or2VideoRTPSource.cpp
+         MPEG1or2VideoStreamDiscreteFramer.cpp
+         MPEG1or2VideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG1or2VideoStreamFramer.cpp(205): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG2IndexFromTransportStream.cpp
+     1>..\..\liveMedia\MPEG2IndexFromTransportStream.cpp(620): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG2IndexFromTransportStream.cpp(625): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG2TransportFileServerMediaSubsession.cpp
+         正在编译...
+         MPEG2TransportStreamAccumulator.cpp
+         MPEG2TransportStreamFramer.cpp
+         MPEG2TransportStreamFromESSource.cpp
+         MPEG2TransportStreamFromPESSource.cpp
+         MPEG2TransportStreamIndexFile.cpp
+         MPEG2TransportStreamMultiplexor.cpp
+     1>..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp(266): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp(312): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp(316): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG2TransportStreamTrickModeFilter.cpp
+         MPEG2TransportUDPServerMediaSubsession.cpp
+         MPEG4ESVideoRTPSink.cpp
+     1>..\..\liveMedia\MPEG4ESVideoRTPSink.cpp(128): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MPEG4ESVideoRTPSource.cpp
+         MPEG4GenericRTPSink.cpp
+     1>..\..\liveMedia\MPEG4GenericRTPSink.cpp(63): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MPEG4GenericRTPSource.cpp
+     1>..\..\liveMedia\MPEG4GenericRTPSource.cpp(88): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MPEG4LATMAudioRTPSink.cpp
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSink.cpp(40): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MPEG4LATMAudioRTPSource.cpp
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSource.cpp(202): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSource.cpp(247): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MPEG4VideoFileServerMediaSubsession.cpp
+         MPEG4VideoStreamDiscreteFramer.cpp
+         MPEG4VideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEGVideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEGVideoStreamParser.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MultiFramedRTPSink.cpp
+         正在编译...
+         MultiFramedRTPSource.cpp
+     1>..\..\liveMedia\MultiFramedRTPSource.cpp(457): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         OggDemuxedTrack.cpp
+         OggFile.cpp
+         OggFileParser.cpp
+     1>..\..\liveMedia\OggFileParser.cpp(282): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         OggFileServerDemux.cpp
+         OggFileServerMediaSubsession.cpp
+         OggFileSink.cpp
+         OnDemandServerMediaSubsession.cpp
+     1>..\..\liveMedia\OnDemandServerMediaSubsession.cpp(453): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         ourMD5.cpp
+         OutputFile.cpp
+         PassiveServerMediaSubsession.cpp
+     1>..\..\liveMedia\PassiveServerMediaSubsession.cpp(106): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         ProxyServerMediaSession.cpp
+         QCELPAudioRTPSource.cpp
+         QuickTimeFileSink.cpp
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(1241): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2210): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2221): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2326): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         QuickTimeGenericRTPSource.cpp
+         RTCP.cpp
+     1>..\..\liveMedia\RTCP.cpp(1181): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         RTPInterface.cpp
+         RTPSink.cpp
+     1>..\..\liveMedia\RTPSink.cpp(148): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         RTPSource.cpp
+         RTSPClient.cpp
+     1>..\..\liveMedia\RTSPClient.cpp(148): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(280): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(286): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(349): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(353): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(392): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(484): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(489): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(513): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(534): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(539): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(541): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(703): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(757): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(774): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(926): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(935): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(940): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1026): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1301): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1321): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1439): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1745): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1767): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1794): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         正在编译...
+         RTSPCommon.cpp
+     1>..\..\liveMedia\RTSPCommon.cpp(312): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+         RTSPRegisterSender.cpp
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(36): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(120): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(126): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(200): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(206): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         RTSPServer.cpp
+     1>..\..\liveMedia\RTSPServer.cpp(352): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(386): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(709): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(845): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(868): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(878): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1050): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1068): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1536): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1597): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1660): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1763): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1778): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         RTSPServerRegister.cpp
+         RTSPServerSupportingHTTPStreaming.cpp
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(145): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(189): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(194): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(198): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(226): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(243): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         ServerMediaSession.cpp
+     1>..\..\liveMedia\ServerMediaSession.cpp(213): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(221): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(242): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(281): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(304): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         SimpleRTPSink.cpp
+         SimpleRTPSource.cpp
+         SIPClient.cpp
+     1>..\..\liveMedia\SIPClient.cpp(46): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(50): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(69): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(73): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(78): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(118): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(144): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(191): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(216): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(220): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(239): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(248): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(276): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(290): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(539): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(565): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(621): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(664): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(674): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(706): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(716): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(877): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         StreamParser.cpp
+         StreamReplicator.cpp
+         T140TextRTPSink.cpp
+         TCPStreamSink.cpp
+         TextRTPSink.cpp
+         TheoraVideoRTPSink.cpp
+     1>..\..\liveMedia\TheoraVideoRTPSink.cpp(103): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         TheoraVideoRTPSource.cpp
+         uLawAudioFilter.cpp
+         VideoRTPSink.cpp
+         VorbisAudioRTPSink.cpp
+     1>..\..\liveMedia\VorbisAudioRTPSink.cpp(112): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         VorbisAudioRTPSource.cpp
+         正在编译...
+         VP8VideoRTPSink.cpp
+         VP8VideoRTPSource.cpp
+         VP9VideoRTPSink.cpp
+         VP9VideoRTPSource.cpp
+         WAVAudioFileServerMediaSubsession.cpp
+         WAVAudioFileSource.cpp
+     1>..\..\liveMedia\WAVAudioFileSource.cpp(287): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\UsageEnvironment\include /I..\..\liveMedia\include /I..\..\groupsock\include /I..\..\BasicUsageEnvironment\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\liveMedia\rtcp_from_spec.c
+         rtcp_from_spec.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\x64\Release\liveMedia.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\AC3AudioFileServerMediaSubsession.obj
+         x64\Release\AC3AudioRTPSink.obj
+         x64\Release\AC3AudioRTPSource.obj
+         x64\Release\AC3AudioStreamFramer.obj
+         x64\Release\ADTSAudioFileServerMediaSubsession.obj
+         x64\Release\ADTSAudioFileSource.obj
+         x64\Release\AMRAudioFileServerMediaSubsession.obj
+         x64\Release\AMRAudioFileSink.obj
+         x64\Release\AMRAudioFileSource.obj
+         x64\Release\AMRAudioRTPSink.obj
+         x64\Release\AMRAudioRTPSource.obj
+         x64\Release\AMRAudioSource.obj
+         x64\Release\AudioInputDevice.obj
+         x64\Release\AudioRTPSink.obj
+         x64\Release\AVIFileSink.obj
+         x64\Release\Base64.obj
+         x64\Release\BasicUDPSink.obj
+         x64\Release\BasicUDPSource.obj
+         x64\Release\BitVector.obj
+         x64\Release\ByteStreamFileSource.obj
+         x64\Release\ByteStreamMemoryBufferSource.obj
+         x64\Release\ByteStreamMultiFileSource.obj
+         x64\Release\DeviceSource.obj
+         x64\Release\DigestAuthentication.obj
+         x64\Release\DVVideoFileServerMediaSubsession.obj
+         x64\Release\DVVideoRTPSink.obj
+         x64\Release\DVVideoRTPSource.obj
+         x64\Release\DVVideoStreamFramer.obj
+         x64\Release\EBMLNumber.obj
+         x64\Release\FileServerMediaSubsession.obj
+         x64\Release\FileSink.obj
+         x64\Release\FramedFileSource.obj
+         x64\Release\FramedFilter.obj
+         x64\Release\FramedSource.obj
+         x64\Release\GenericMediaServer.obj
+         x64\Release\GSMAudioRTPSink.obj
+         x64\Release\H261VideoRTPSource.obj
+         x64\Release\H263plusVideoFileServerMediaSubsession.obj
+         x64\Release\H263plusVideoRTPSink.obj
+         x64\Release\H263plusVideoRTPSource.obj
+         x64\Release\H263plusVideoStreamFramer.obj
+         x64\Release\H263plusVideoStreamParser.obj
+         x64\Release\H264or5VideoFileSink.obj
+         x64\Release\H264or5VideoRTPSink.obj
+         x64\Release\H264or5VideoStreamDiscreteFramer.obj
+         x64\Release\H264or5VideoStreamFramer.obj
+         x64\Release\H264VideoFileServerMediaSubsession.obj
+         x64\Release\H264VideoFileSink.obj
+         x64\Release\H264VideoRTPSink.obj
+         x64\Release\H264VideoRTPSource.obj
+         x64\Release\H264VideoStreamDiscreteFramer.obj
+         x64\Release\H264VideoStreamFramer.obj
+         x64\Release\H265VideoFileServerMediaSubsession.obj
+         x64\Release\H265VideoFileSink.obj
+         x64\Release\H265VideoRTPSink.obj
+         x64\Release\H265VideoRTPSource.obj
+         x64\Release\H265VideoStreamDiscreteFramer.obj
+         x64\Release\H265VideoStreamFramer.obj
+         x64\Release\InputFile.obj
+         x64\Release\JPEGVideoRTPSink.obj
+         x64\Release\JPEGVideoRTPSource.obj
+         x64\Release\JPEGVideoSource.obj
+         x64\Release\Locale.obj
+         x64\Release\MatroskaDemuxedTrack.obj
+         x64\Release\MatroskaFile.obj
+         x64\Release\MatroskaFileParser.obj
+         x64\Release\MatroskaFileServerDemux.obj
+         x64\Release\MatroskaFileServerMediaSubsession.obj
+         x64\Release\Media.obj
+         x64\Release\MediaSession.obj
+         x64\Release\MediaSink.obj
+         x64\Release\MediaSource.obj
+         x64\Release\MP3ADU.obj
+         x64\Release\MP3ADUdescriptor.obj
+         x64\Release\MP3ADUinterleaving.obj
+         x64\Release\MP3ADURTPSink.obj
+         x64\Release\MP3ADURTPSource.obj
+         x64\Release\MP3ADUTranscoder.obj
+         x64\Release\MP3AudioFileServerMediaSubsession.obj
+         x64\Release\MP3AudioMatroskaFileServerMediaSubsession.obj
+         x64\Release\MP3FileSource.obj
+         x64\Release\MP3Internals.obj
+         x64\Release\MP3InternalsHuffman.obj
+         x64\Release\MP3InternalsHuffmanTable.obj
+         x64\Release\MP3StreamState.obj
+         x64\Release\MP3Transcoder.obj
+         x64\Release\MPEG1or2AudioRTPSink.obj
+         x64\Release\MPEG1or2AudioRTPSource.obj
+         x64\Release\MPEG1or2AudioStreamFramer.obj
+         x64\Release\MPEG1or2Demux.obj
+         x64\Release\MPEG1or2DemuxedElementaryStream.obj
+         x64\Release\MPEG1or2DemuxedServerMediaSubsession.obj
+         x64\Release\MPEG1or2FileServerDemux.obj
+         x64\Release\MPEG1or2VideoFileServerMediaSubsession.obj
+         x64\Release\MPEG1or2VideoRTPSink.obj
+         x64\Release\MPEG1or2VideoRTPSource.obj
+         x64\Release\MPEG1or2VideoStreamDiscreteFramer.obj
+         x64\Release\MPEG1or2VideoStreamFramer.obj
+         x64\Release\MPEG2IndexFromTransportStream.obj
+         x64\Release\MPEG2TransportFileServerMediaSubsession.obj
+         x64\Release\MPEG2TransportStreamAccumulator.obj
+         x64\Release\MPEG2TransportStreamFramer.obj
+         x64\Release\MPEG2TransportStreamFromESSource.obj
+         x64\Release\MPEG2TransportStreamFromPESSource.obj
+         x64\Release\MPEG2TransportStreamIndexFile.obj
+         x64\Release\MPEG2TransportStreamMultiplexor.obj
+         x64\Release\MPEG2TransportStreamTrickModeFilter.obj
+         x64\Release\MPEG2TransportUDPServerMediaSubsession.obj
+         x64\Release\MPEG4ESVideoRTPSink.obj
+         x64\Release\MPEG4ESVideoRTPSource.obj
+         x64\Release\MPEG4GenericRTPSink.obj
+         x64\Release\MPEG4GenericRTPSource.obj
+         x64\Release\MPEG4LATMAudioRTPSink.obj
+         x64\Release\MPEG4LATMAudioRTPSource.obj
+         x64\Release\MPEG4VideoFileServerMediaSubsession.obj
+         x64\Release\MPEG4VideoStreamDiscreteFramer.obj
+         x64\Release\MPEG4VideoStreamFramer.obj
+         x64\Release\MPEGVideoStreamFramer.obj
+         x64\Release\MPEGVideoStreamParser.obj
+         x64\Release\MultiFramedRTPSink.obj
+         x64\Release\MultiFramedRTPSource.obj
+         x64\Release\OggDemuxedTrack.obj
+         x64\Release\OggFile.obj
+         x64\Release\OggFileParser.obj
+         x64\Release\OggFileServerDemux.obj
+         x64\Release\OggFileServerMediaSubsession.obj
+         x64\Release\OggFileSink.obj
+         x64\Release\OnDemandServerMediaSubsession.obj
+         x64\Release\ourMD5.obj
+         x64\Release\OutputFile.obj
+         x64\Release\PassiveServerMediaSubsession.obj
+         x64\Release\ProxyServerMediaSession.obj
+         x64\Release\QCELPAudioRTPSource.obj
+         x64\Release\QuickTimeFileSink.obj
+         x64\Release\QuickTimeGenericRTPSource.obj
+         x64\Release\RTCP.obj
+         x64\Release\rtcp_from_spec.obj
+         x64\Release\RTPInterface.obj
+         x64\Release\RTPSink.obj
+         x64\Release\RTPSource.obj
+         x64\Release\RTSPClient.obj
+         x64\Release\RTSPCommon.obj
+         x64\Release\RTSPRegisterSender.obj
+         x64\Release\RTSPServer.obj
+         x64\Release\RTSPServerRegister.obj
+         x64\Release\RTSPServerSupportingHTTPStreaming.obj
+         x64\Release\ServerMediaSession.obj
+         x64\Release\SimpleRTPSink.obj
+         x64\Release\SimpleRTPSource.obj
+         x64\Release\SIPClient.obj
+         x64\Release\StreamParser.obj
+         x64\Release\StreamReplicator.obj
+         x64\Release\T140TextRTPSink.obj
+         x64\Release\TCPStreamSink.obj
+         x64\Release\TextRTPSink.obj
+         x64\Release\TheoraVideoRTPSink.obj
+         x64\Release\TheoraVideoRTPSource.obj
+         x64\Release\uLawAudioFilter.obj
+         x64\Release\VideoRTPSink.obj
+         x64\Release\VorbisAudioRTPSink.obj
+         x64\Release\VorbisAudioRTPSource.obj
+         x64\Release\VP8VideoRTPSink.obj
+         x64\Release\VP8VideoRTPSource.obj
+         x64\Release\VP9VideoRTPSink.obj
+         x64\Release\VP9VideoRTPSource.obj
+         x64\Release\WAVAudioFileServerMediaSubsession.obj
+         x64\Release\WAVAudioFileSource.obj
+         liveMedia.vcxproj -> D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\x64\Release\liveMedia.lib
+     1>已完成生成项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\liveMedia\liveMedia.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:50.51

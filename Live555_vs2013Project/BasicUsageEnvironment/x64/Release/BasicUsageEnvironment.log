@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/11/25 16:23:43。
+     1>项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\BasicUsageEnvironment\BasicUsageEnvironment.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\BasicUsageEnvironment\include /I..\..\groupsock\include /I..\..\liveMedia\include /I..\..\UsageEnvironment\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\BasicUsageEnvironment\BasicHashTable.cpp ..\..\BasicUsageEnvironment\BasicTaskScheduler.cpp ..\..\BasicUsageEnvironment\BasicTaskScheduler0.cpp ..\..\BasicUsageEnvironment\BasicUsageEnvironment.cpp ..\..\BasicUsageEnvironment\BasicUsageEnvironment0.cpp ..\..\BasicUsageEnvironment\DelayQueue.cpp
+         BasicHashTable.cpp
+         BasicTaskScheduler.cpp
+     1>..\..\BasicUsageEnvironment\BasicTaskScheduler.cpp(100): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+         BasicTaskScheduler0.cpp
+         BasicUsageEnvironment.cpp
+         BasicUsageEnvironment0.cpp
+     1>..\..\BasicUsageEnvironment\BasicUsageEnvironment0.cpp(91): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         DelayQueue.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\x64\Release\BasicUsageEnvironment.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\BasicHashTable.obj
+         x64\Release\BasicTaskScheduler.obj
+         x64\Release\BasicTaskScheduler0.obj
+         x64\Release\BasicUsageEnvironment.obj
+         x64\Release\BasicUsageEnvironment0.obj
+         x64\Release\DelayQueue.obj
+         BasicUsageEnvironment.vcxproj -> D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\x64\Release\BasicUsageEnvironment.lib
+     1>已完成生成项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\BasicUsageEnvironment\BasicUsageEnvironment.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.63

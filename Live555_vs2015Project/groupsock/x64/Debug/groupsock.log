@@ -1,0 +1,22 @@
+﻿  NetInterface.cpp
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\netinterface.cpp(141): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\netinterface.cpp(146): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\netinterface.cpp(158): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+  NetAddress.cpp
+  IOHandlers.cpp
+  GroupsockHelper.cpp
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(89): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(791): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+  Groupsock.cpp
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsock.cpp(523): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsock.cpp(525): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsock.cpp(554): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsock.cpp(562): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\groupsock.cpp(575): warning C4312: “类型转换”: 从“long”转换到更大的“char *”
+  GroupEId.cpp
+  正在生成代码...
+  inet.c
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\inet.c(278): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\inet.c(313): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+d:\studydir\1_streammedia\live555\live.2017.10.28\groupsock\inet.c(344): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+  groupsock.vcxproj -> D:\StudyDir\1_StreamMedia\live555\live.2017.10.28\Live555Project\x64\Debug\groupsock.lib

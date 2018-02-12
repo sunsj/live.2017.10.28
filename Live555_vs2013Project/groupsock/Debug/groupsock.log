@@ -1,0 +1,50 @@
+﻿生成启动时间为 2018/1/24 11:27:18。
+     1>项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\groupsock\groupsock.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\BasicUsageEnvironment\include /I..\..\groupsock\include /I..\..\liveMedia\include /I..\..\UsageEnvironment\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\groupsock\GroupEId.cpp ..\..\groupsock\Groupsock.cpp ..\..\groupsock\GroupsockHelper.cpp ..\..\groupsock\IOHandlers.cpp ..\..\groupsock\NetAddress.cpp ..\..\groupsock\NetInterface.cpp
+         NetInterface.cpp
+         NetAddress.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\netaddress.cpp(108): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\netaddress.cpp(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         IOHandlers.cpp
+         GroupsockHelper.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(775): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(815): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(86) : 参见“ctime”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(818): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsockhelper.cpp(873): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+         Groupsock.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsock.cpp(545): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\groupsock.cpp(557): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         GroupEId.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\BasicUsageEnvironment\include /I..\..\groupsock\include /I..\..\liveMedia\include /I..\..\UsageEnvironment\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\groupsock\inet.c
+         inet.c
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\groupsock\inet.c(18): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\Debug\groupsock.lib" /NOLOGO Debug\GroupEId.obj
+         Debug\Groupsock.obj
+         Debug\GroupsockHelper.obj
+         Debug\inet.obj
+         Debug\IOHandlers.obj
+         Debug\NetAddress.obj
+         Debug\NetInterface.obj
+         groupsock.vcxproj -> D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\Debug\groupsock.lib
+     1>已完成生成项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\groupsock\groupsock.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.65

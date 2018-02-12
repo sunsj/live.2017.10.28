@@ -1,0 +1,903 @@
+﻿生成启动时间为 2017/11/25 16:15:02。
+     1>项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\liveMedia\liveMedia.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\UsageEnvironment\include /I..\..\liveMedia\include /I..\..\groupsock\include /I..\..\BasicUsageEnvironment\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D DEBUG /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\liveMedia\AC3AudioFileServerMediaSubsession.cpp ..\..\liveMedia\AC3AudioRTPSink.cpp ..\..\liveMedia\AC3AudioRTPSource.cpp ..\..\liveMedia\AC3AudioStreamFramer.cpp ..\..\liveMedia\ADTSAudioFileServerMediaSubsession.cpp ..\..\liveMedia\ADTSAudioFileSource.cpp ..\..\liveMedia\AMRAudioFileServerMediaSubsession.cpp ..\..\liveMedia\AMRAudioFileSink.cpp ..\..\liveMedia\AMRAudioFileSource.cpp ..\..\liveMedia\AMRAudioRTPSink.cpp ..\..\liveMedia\AMRAudioRTPSource.cpp ..\..\liveMedia\AMRAudioSource.cpp ..\..\liveMedia\AudioInputDevice.cpp ..\..\liveMedia\AudioRTPSink.cpp ..\..\liveMedia\AVIFileSink.cpp ..\..\liveMedia\Base64.cpp ..\..\liveMedia\BasicUDPSink.cpp ..\..\liveMedia\BasicUDPSource.cpp ..\..\liveMedia\BitVector.cpp ..\..\liveMedia\ByteStreamFileSource.cpp ..\..\liveMedia\ByteStreamMemoryBufferSource.cpp ..\..\liveMedia\ByteStreamMultiFileSource.cpp ..\..\liveMedia\DeviceSource.cpp ..\..\liveMedia\DigestAuthentication.cpp ..\..\liveMedia\DVVideoFileServerMediaSubsession.cpp ..\..\liveMedia\DVVideoRTPSink.cpp ..\..\liveMedia\DVVideoRTPSource.cpp ..\..\liveMedia\DVVideoStreamFramer.cpp ..\..\liveMedia\EBMLNumber.cpp ..\..\liveMedia\FileServerMediaSubsession.cpp ..\..\liveMedia\FileSink.cpp ..\..\liveMedia\FramedFileSource.cpp ..\..\liveMedia\FramedFilter.cpp ..\..\liveMedia\FramedSource.cpp ..\..\liveMedia\GenericMediaServer.cpp ..\..\liveMedia\GSMAudioRTPSink.cpp ..\..\liveMedia\H261VideoRTPSource.cpp ..\..\liveMedia\H263plusVideoFileServerMediaSubsession.cpp ..\..\liveMedia\H263plusVideoRTPSink.cpp ..\..\liveMedia\H263plusVideoRTPSource.cpp ..\..\liveMedia\H263plusVideoStreamFramer.cpp ..\..\liveMedia\H263plusVideoStreamParser.cpp ..\..\liveMedia\H264or5VideoFileSink.cpp ..\..\liveMedia\H264or5VideoRTPSink.cpp ..\..\liveMedia\H264or5VideoStreamDiscreteFramer.cpp ..\..\liveMedia\H264or5VideoStreamFramer.cpp ..\..\liveMedia\H264VideoFileServerMediaSubsession.cpp ..\..\liveMedia\H264VideoFileSink.cpp ..\..\liveMedia\H264VideoRTPSink.cpp ..\..\liveMedia\H264VideoRTPSource.cpp ..\..\liveMedia\H264VideoStreamDiscreteFramer.cpp ..\..\liveMedia\H264VideoStreamFramer.cpp ..\..\liveMedia\H265VideoFileServerMediaSubsession.cpp ..\..\liveMedia\H265VideoFileSink.cpp ..\..\liveMedia\H265VideoRTPSink.cpp ..\..\liveMedia\H265VideoRTPSource.cpp ..\..\liveMedia\H265VideoStreamDiscreteFramer.cpp ..\..\liveMedia\H265VideoStreamFramer.cpp ..\..\liveMedia\InputFile.cpp ..\..\liveMedia\JPEGVideoRTPSink.cpp ..\..\liveMedia\JPEGVideoRTPSource.cpp ..\..\liveMedia\JPEGVideoSource.cpp ..\..\liveMedia\Locale.cpp ..\..\liveMedia\MatroskaDemuxedTrack.cpp ..\..\liveMedia\MatroskaFile.cpp ..\..\liveMedia\MatroskaFileParser.cpp ..\..\liveMedia\MatroskaFileServerDemux.cpp ..\..\liveMedia\MatroskaFileServerMediaSubsession.cpp ..\..\liveMedia\Media.cpp ..\..\liveMedia\MediaSession.cpp ..\..\liveMedia\MediaSink.cpp ..\..\liveMedia\MediaSource.cpp ..\..\liveMedia\MP3ADU.cpp ..\..\liveMedia\MP3ADUdescriptor.cpp ..\..\liveMedia\MP3ADUinterleaving.cpp ..\..\liveMedia\MP3ADURTPSink.cpp ..\..\liveMedia\MP3ADURTPSource.cpp ..\..\liveMedia\MP3ADUTranscoder.cpp ..\..\liveMedia\MP3AudioFileServerMediaSubsession.cpp ..\..\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp ..\..\liveMedia\MP3FileSource.cpp ..\..\liveMedia\MP3Internals.cpp ..\..\liveMedia\MP3InternalsHuffman.cpp ..\..\liveMedia\MP3InternalsHuffmanTable.cpp ..\..\liveMedia\MP3StreamState.cpp ..\..\liveMedia\MP3Transcoder.cpp ..\..\liveMedia\MPEG1or2AudioRTPSink.cpp ..\..\liveMedia\MPEG1or2AudioRTPSource.cpp ..\..\liveMedia\MPEG1or2AudioStreamFramer.cpp ..\..\liveMedia\MPEG1or2Demux.cpp ..\..\liveMedia\MPEG1or2DemuxedElementaryStream.cpp ..\..\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp ..\..\liveMedia\MPEG1or2FileServerDemux.cpp ..\..\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp ..\..\liveMedia\MPEG1or2VideoRTPSink.cpp ..\..\liveMedia\MPEG1or2VideoRTPSource.cpp ..\..\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp ..\..\liveMedia\MPEG1or2VideoStreamFramer.cpp ..\..\liveMedia\MPEG2IndexFromTransportStream.cpp ..\..\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp ..\..\liveMedia\MPEG2TransportStreamAccumulator.cpp ..\..\liveMedia\MPEG2TransportStreamFramer.cpp ..\..\liveMedia\MPEG2TransportStreamFromESSource.cpp ..\..\liveMedia\MPEG2TransportStreamFromPESSource.cpp ..\..\liveMedia\MPEG2TransportStreamIndexFile.cpp ..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp ..\..\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp ..\..\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp ..\..\liveMedia\MPEG4ESVideoRTPSink.cpp ..\..\liveMedia\MPEG4ESVideoRTPSource.cpp ..\..\liveMedia\MPEG4GenericRTPSink.cpp ..\..\liveMedia\MPEG4GenericRTPSource.cpp ..\..\liveMedia\MPEG4LATMAudioRTPSink.cpp ..\..\liveMedia\MPEG4LATMAudioRTPSource.cpp ..\..\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp ..\..\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp ..\..\liveMedia\MPEG4VideoStreamFramer.cpp ..\..\liveMedia\MPEGVideoStreamFramer.cpp ..\..\liveMedia\MPEGVideoStreamParser.cpp ..\..\liveMedia\MultiFramedRTPSink.cpp ..\..\liveMedia\MultiFramedRTPSource.cpp ..\..\liveMedia\OggDemuxedTrack.cpp ..\..\liveMedia\OggFile.cpp ..\..\liveMedia\OggFileParser.cpp ..\..\liveMedia\OggFileServerDemux.cpp ..\..\liveMedia\OggFileServerMediaSubsession.cpp ..\..\liveMedia\OggFileSink.cpp ..\..\liveMedia\OnDemandServerMediaSubsession.cpp ..\..\liveMedia\ourMD5.cpp ..\..\liveMedia\OutputFile.cpp ..\..\liveMedia\PassiveServerMediaSubsession.cpp ..\..\liveMedia\ProxyServerMediaSession.cpp ..\..\liveMedia\QCELPAudioRTPSource.cpp ..\..\liveMedia\QuickTimeFileSink.cpp ..\..\liveMedia\QuickTimeGenericRTPSource.cpp ..\..\liveMedia\RTCP.cpp ..\..\liveMedia\RTPInterface.cpp ..\..\liveMedia\RTPSink.cpp ..\..\liveMedia\RTPSource.cpp ..\..\liveMedia\RTSPClient.cpp ..\..\liveMedia\RTSPCommon.cpp ..\..\liveMedia\RTSPRegisterSender.cpp ..\..\liveMedia\RTSPServer.cpp ..\..\liveMedia\RTSPServerRegister.cpp ..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp ..\..\liveMedia\ServerMediaSession.cpp ..\..\liveMedia\SimpleRTPSink.cpp ..\..\liveMedia\SimpleRTPSource.cpp ..\..\liveMedia\SIPClient.cpp ..\..\liveMedia\StreamParser.cpp ..\..\liveMedia\StreamReplicator.cpp ..\..\liveMedia\T140TextRTPSink.cpp ..\..\liveMedia\TCPStreamSink.cpp ..\..\liveMedia\TextRTPSink.cpp ..\..\liveMedia\TheoraVideoRTPSink.cpp ..\..\liveMedia\TheoraVideoRTPSource.cpp ..\..\liveMedia\uLawAudioFilter.cpp ..\..\liveMedia\VideoRTPSink.cpp ..\..\liveMedia\VorbisAudioRTPSink.cpp ..\..\liveMedia\VorbisAudioRTPSource.cpp ..\..\liveMedia\VP8VideoRTPSink.cpp ..\..\liveMedia\VP8VideoRTPSource.cpp ..\..\liveMedia\VP9VideoRTPSink.cpp ..\..\liveMedia\VP9VideoRTPSource.cpp ..\..\liveMedia\WAVAudioFileServerMediaSubsession.cpp ..\..\liveMedia\WAVAudioFileSource.cpp
+         WAVAudioFileSource.cpp
+     1>..\..\liveMedia\WAVAudioFileSource.cpp(154): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\WAVAudioFileSource.cpp(287): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         WAVAudioFileServerMediaSubsession.cpp
+         VP9VideoRTPSource.cpp
+         VP9VideoRTPSink.cpp
+         VP8VideoRTPSource.cpp
+         VP8VideoRTPSink.cpp
+         VorbisAudioRTPSource.cpp
+         VorbisAudioRTPSink.cpp
+     1>..\..\liveMedia\VorbisAudioRTPSink.cpp(112): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\VorbisAudioRTPSink.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         VideoRTPSink.cpp
+         uLawAudioFilter.cpp
+         TheoraVideoRTPSource.cpp
+         TheoraVideoRTPSink.cpp
+     1>..\..\liveMedia\TheoraVideoRTPSink.cpp(103): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\TheoraVideoRTPSink.cpp(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         TextRTPSink.cpp
+         TCPStreamSink.cpp
+         T140TextRTPSink.cpp
+         StreamReplicator.cpp
+         StreamParser.cpp
+         SIPClient.cpp
+     1>..\..\liveMedia\SIPClient.cpp(46): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(49): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(50): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(69): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(73): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(78): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(118): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(121): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(144): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(191): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(216): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(219): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(220): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(239): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(247): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(248): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(276): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(290): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(510): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(537): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(539): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(544): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(565): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(621): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(664): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(672): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(674): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(706): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(714): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(716): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(808): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(877): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\SIPClient.cpp(881): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\SIPClient.cpp(953): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+         SimpleRTPSource.cpp
+         SimpleRTPSink.cpp
+         正在生成代码...
+         正在编译...
+         ServerMediaSession.cpp
+     1>..\..\liveMedia\ServerMediaSession.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(213): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(221): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(224): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(242): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(252): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(281): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(298): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(304): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\ServerMediaSession.cpp(310): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(361): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(434): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(436): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ServerMediaSession.cpp(453): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         RTSPServerSupportingHTTPStreaming.cpp
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(72): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(87): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(143): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(145): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(189): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(194): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(198): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(217): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(224): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(226): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(240): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServerSupportingHTTPStreaming.cpp(243): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         RTSPServerRegister.cpp
+     1>..\..\liveMedia\RTSPServerRegister.cpp(273): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServerRegister.cpp(357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServerRegister.cpp(396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         RTSPServer.cpp
+     1>..\..\liveMedia\RTSPServer.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(87): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(323): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(324): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(326): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(352): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(369): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(386): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(410): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(416): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(487): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(493): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(509): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(532): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(709): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(763): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(764): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(766): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 参见“strcat”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(794): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(845): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(868): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(878): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(920): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1019): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1031): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1044): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1050): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1062): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1068): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1082): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1185): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1195): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1197): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1200): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1411): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1427): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1445): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1461): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1477): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1491): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1536): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1597): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1615): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1660): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1710): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1712): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1736): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1738): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1763): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1771): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPServer.cpp(1778): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPServer.cpp(1798): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         RTSPRegisterSender.cpp
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(36): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(120): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(126): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(200): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(206): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPRegisterSender.cpp(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         RTSPCommon.cpp
+     1>..\..\liveMedia\RTSPCommon.cpp(203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(221): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(224): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(233): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(236): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(239): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(246): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(257): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(296): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPCommon.cpp(312): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPCommon.cpp(341): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+         RTSPClient.cpp
+     1>..\..\liveMedia\RTSPClient.cpp(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(148): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(153): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(235): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(280): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(286): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(323): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(349): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(352): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(353): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(392): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(484): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(489): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(513): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(522): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(534): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(539): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(541): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(543): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(601): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(615): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(618): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(629): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(633): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(675): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(703): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(706): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(718): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(757): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(762): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(774): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(779): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(802): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(818): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(926): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(930): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(935): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(937): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(940): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(942): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(968): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(991): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1025): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1026): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1065): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1066): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1068): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1073): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1083): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1123): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1128): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1139): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1140): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1142): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1163): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1173): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1301): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1321): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1345): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1349): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1352): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1439): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1662): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1693): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1717): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1745): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1749): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1767): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTSPClient.cpp(1777): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTSPClient.cpp(1794): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         RTPSource.cpp
+         RTPSink.cpp
+     1>..\..\liveMedia\RTPSink.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\RTPSink.cpp(148): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\RTPSink.cpp(152): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         RTPInterface.cpp
+         RTCP.cpp
+     1>..\..\liveMedia\RTCP.cpp(352): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\RTCP.cpp(1181): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         QuickTimeGenericRTPSource.cpp
+         QuickTimeFileSink.cpp
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(1241): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2186): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2210): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2213): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2219): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2221): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2236): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2326): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\QuickTimeFileSink.cpp(2329): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         QCELPAudioRTPSource.cpp
+         ProxyServerMediaSession.cpp
+         PassiveServerMediaSubsession.cpp
+     1>..\..\liveMedia\PassiveServerMediaSubsession.cpp(106): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\PassiveServerMediaSubsession.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         OutputFile.cpp
+     1>..\..\liveMedia\OutputFile.cpp(47): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+         ourMD5.cpp
+         OnDemandServerMediaSubsession.cpp
+     1>..\..\liveMedia\OnDemandServerMediaSubsession.cpp(453): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\OnDemandServerMediaSubsession.cpp(465): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         OggFileSink.cpp
+         正在生成代码...
+         正在编译...
+         OggFileServerMediaSubsession.cpp
+         OggFileServerDemux.cpp
+         OggFileParser.cpp
+     1>..\..\liveMedia\OggFileParser.cpp(282): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         OggFile.cpp
+         OggDemuxedTrack.cpp
+         MultiFramedRTPSource.cpp
+     1>..\..\liveMedia\MultiFramedRTPSource.cpp(457): warning C4244: “+=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MultiFramedRTPSink.cpp
+         MPEGVideoStreamParser.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEGVideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG4VideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4VideoStreamFramer.cpp(432): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MPEG4VideoStreamDiscreteFramer.cpp
+         MPEG4VideoFileServerMediaSubsession.cpp
+         MPEG4LATMAudioRTPSource.cpp
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSource.cpp(202): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSource.cpp(247): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MPEG4LATMAudioRTPSink.cpp
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSink.cpp(40): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4LATMAudioRTPSink.cpp(44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MPEG4GenericRTPSource.cpp
+     1>..\..\liveMedia\MPEG4GenericRTPSource.cpp(88): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4GenericRTPSource.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MPEG4GenericRTPSink.cpp
+     1>..\..\liveMedia\MPEG4GenericRTPSink.cpp(63): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4GenericRTPSink.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MPEG4ESVideoRTPSource.cpp
+         MPEG4ESVideoRTPSink.cpp
+     1>..\..\liveMedia\MPEG4ESVideoRTPSink.cpp(128): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG4ESVideoRTPSink.cpp(130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\MPEG4ESVideoRTPSink.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\MPEG4ESVideoRTPSink.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MPEG2TransportUDPServerMediaSubsession.cpp
+         MPEG2TransportStreamTrickModeFilter.cpp
+         正在生成代码...
+         正在编译...
+         MPEG2TransportStreamMultiplexor.cpp
+     1>..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp(266): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp(312): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG2TransportStreamMultiplexor.cpp(316): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG2TransportStreamIndexFile.cpp
+         MPEG2TransportStreamFromPESSource.cpp
+         MPEG2TransportStreamFromESSource.cpp
+         MPEG2TransportStreamFramer.cpp
+         MPEG2TransportStreamAccumulator.cpp
+         MPEG2TransportFileServerMediaSubsession.cpp
+         MPEG2IndexFromTransportStream.cpp
+     1>..\..\liveMedia\MPEG2IndexFromTransportStream.cpp(620): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG2IndexFromTransportStream.cpp(625): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG1or2VideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MPEG1or2VideoStreamFramer.cpp(205): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+         MPEG1or2VideoStreamDiscreteFramer.cpp
+         MPEG1or2VideoRTPSource.cpp
+         MPEG1or2VideoRTPSink.cpp
+         MPEG1or2VideoFileServerMediaSubsession.cpp
+         MPEG1or2FileServerDemux.cpp
+         MPEG1or2DemuxedServerMediaSubsession.cpp
+         MPEG1or2DemuxedElementaryStream.cpp
+         MPEG1or2Demux.cpp
+         MPEG1or2AudioStreamFramer.cpp
+         MPEG1or2AudioRTPSource.cpp
+         MPEG1or2AudioRTPSink.cpp
+         正在生成代码...
+         正在编译...
+         MP3Transcoder.cpp
+         MP3StreamState.cpp
+     1>..\..\liveMedia\MP3StreamState.cpp(188): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\MP3StreamState.cpp(390): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         MP3InternalsHuffmanTable.cpp
+         MP3InternalsHuffman.cpp
+     1>..\..\liveMedia\MP3InternalsHuffman.cpp(305): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MP3InternalsHuffman.cpp(354): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MP3InternalsHuffman.cpp(365): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MP3InternalsHuffman.cpp(376): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+         MP3Internals.cpp
+         MP3FileSource.cpp
+     1>..\..\liveMedia\MP3FileSource.cpp(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MP3AudioMatroskaFileServerMediaSubsession.cpp
+         MP3AudioFileServerMediaSubsession.cpp
+         MP3ADUTranscoder.cpp
+     1>..\..\liveMedia\MP3ADUTranscoder.cpp(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MP3ADURTPSource.cpp
+         MP3ADURTPSink.cpp
+         MP3ADUinterleaving.cpp
+         MP3ADUdescriptor.cpp
+         MP3ADU.cpp
+         MediaSource.cpp
+         MediaSink.cpp
+         MediaSession.cpp
+     1>..\..\liveMedia\MediaSession.cpp(142): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(150): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(230): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(281): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(295): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(309): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(337): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(352): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(362): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(369): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(416): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1012): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1031): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1065): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1114): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\MediaSession.cpp(1119): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1156): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1174): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1360): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\MediaSession.cpp(1441): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+         Media.cpp
+     1>..\..\liveMedia\Media.cpp(154): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MatroskaFileServerMediaSubsession.cpp
+         MatroskaFileServerDemux.cpp
+         正在生成代码...
+         正在编译...
+         MatroskaFileParser.cpp
+         MatroskaFile.cpp
+     1>..\..\liveMedia\MatroskaFile.cpp(322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MatroskaDemuxedTrack.cpp
+         Locale.cpp
+         JPEGVideoSource.cpp
+         JPEGVideoRTPSource.cpp
+         JPEGVideoRTPSink.cpp
+         InputFile.cpp
+     1>..\..\liveMedia\InputFile.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+         H265VideoStreamFramer.cpp
+         H265VideoStreamDiscreteFramer.cpp
+         H265VideoRTPSource.cpp
+         H265VideoRTPSink.cpp
+     1>..\..\liveMedia\H265VideoRTPSink.cpp(140): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\H265VideoRTPSink.cpp(164): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\H265VideoRTPSink.cpp(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         H265VideoFileSink.cpp
+         H265VideoFileServerMediaSubsession.cpp
+         H264VideoStreamFramer.cpp
+         H264VideoStreamDiscreteFramer.cpp
+         H264VideoRTPSource.cpp
+         H264VideoRTPSink.cpp
+     1>..\..\liveMedia\H264VideoRTPSink.cpp(119): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\H264VideoRTPSink.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         H264VideoFileSink.cpp
+         H264VideoFileServerMediaSubsession.cpp
+         正在生成代码...
+         正在编译...
+         H264or5VideoStreamFramer.cpp
+     1>d:\workdir\3_stream_media\live555\live.2017.10.28\livemedia\MPEGVideoStreamParser.hh(114): warning C4244: “return”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\H264or5VideoStreamFramer.cpp(188): warning C4244: “初始化”: 从“__int64”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\H264or5VideoStreamFramer.cpp(670): warning C4018: “<”: 有符号/无符号不匹配
+         H264or5VideoStreamDiscreteFramer.cpp
+         H264or5VideoRTPSink.cpp
+         H264or5VideoFileSink.cpp
+         H263plusVideoStreamParser.cpp
+     1>..\..\liveMedia\H263plusVideoStreamParser.cpp(210): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+         H263plusVideoStreamFramer.cpp
+         H263plusVideoRTPSource.cpp
+         H263plusVideoRTPSink.cpp
+         H263plusVideoFileServerMediaSubsession.cpp
+         H261VideoRTPSource.cpp
+         GSMAudioRTPSink.cpp
+         GenericMediaServer.cpp
+     1>..\..\liveMedia\GenericMediaServer.cpp(187): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+     1>..\..\liveMedia\GenericMediaServer.cpp(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\GenericMediaServer.cpp(323): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>..\..\liveMedia\GenericMediaServer.cpp(335): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         FramedSource.cpp
+         FramedFilter.cpp
+         FramedFileSource.cpp
+         FileSink.cpp
+     1>..\..\liveMedia\FileSink.cpp(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\FileSink.cpp(104): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         FileServerMediaSubsession.cpp
+         EBMLNumber.cpp
+     1>..\..\liveMedia\EBMLNumber.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         DVVideoStreamFramer.cpp
+         DVVideoRTPSource.cpp
+         正在生成代码...
+         正在编译...
+         DVVideoRTPSink.cpp
+     1>..\..\liveMedia\DVVideoRTPSink.cpp(89): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>..\..\liveMedia\DVVideoRTPSink.cpp(92): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         DVVideoFileServerMediaSubsession.cpp
+         DigestAuthentication.cpp
+     1>..\..\liveMedia\DigestAuthentication.cpp(112): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>..\..\liveMedia\DigestAuthentication.cpp(116): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\DigestAuthentication.cpp(118): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\DigestAuthentication.cpp(123): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\DigestAuthentication.cpp(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\DigestAuthentication.cpp(131): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+     1>..\..\liveMedia\DigestAuthentication.cpp(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         DeviceSource.cpp
+         ByteStreamMultiFileSource.cpp
+         ByteStreamMemoryBufferSource.cpp
+         ByteStreamFileSource.cpp
+     1>..\..\liveMedia\ByteStreamFileSource.cpp(138): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         BitVector.cpp
+         BasicUDPSource.cpp
+         BasicUDPSink.cpp
+         Base64.cpp
+     1>..\..\liveMedia\Base64.cpp(43): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         AVIFileSink.cpp
+         AudioRTPSink.cpp
+         AudioInputDevice.cpp
+         AMRAudioSource.cpp
+         AMRAudioRTPSource.cpp
+         AMRAudioRTPSink.cpp
+     1>..\..\liveMedia\AMRAudioRTPSink.cpp(130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         AMRAudioFileSource.cpp
+     1>..\..\liveMedia\AMRAudioFileSource.cpp(156): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         AMRAudioFileSink.cpp
+     1>..\..\liveMedia\AMRAudioFileSink.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\AMRAudioFileSink.cpp(79): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         AMRAudioFileServerMediaSubsession.cpp
+         正在生成代码...
+         正在编译...
+         ADTSAudioFileSource.cpp
+     1>..\..\liveMedia\ADTSAudioFileSource.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>..\..\liveMedia\ADTSAudioFileSource.cpp(150): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         ADTSAudioFileServerMediaSubsession.cpp
+         AC3AudioStreamFramer.cpp
+         AC3AudioRTPSource.cpp
+         AC3AudioRTPSink.cpp
+         AC3AudioFileServerMediaSubsession.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\UsageEnvironment\include /I..\..\liveMedia\include /I..\..\groupsock\include /I..\..\BasicUsageEnvironment\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D DEBUG /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\liveMedia\rtcp_from_spec.c
+         rtcp_from_spec.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\x64\Debug\liveMedia.lib" /NOLOGO /MACHINE:X64 x64\Debug\AC3AudioFileServerMediaSubsession.obj
+         x64\Debug\AC3AudioRTPSink.obj
+         x64\Debug\AC3AudioRTPSource.obj
+         x64\Debug\AC3AudioStreamFramer.obj
+         x64\Debug\ADTSAudioFileServerMediaSubsession.obj
+         x64\Debug\ADTSAudioFileSource.obj
+         x64\Debug\AMRAudioFileServerMediaSubsession.obj
+         x64\Debug\AMRAudioFileSink.obj
+         x64\Debug\AMRAudioFileSource.obj
+         x64\Debug\AMRAudioRTPSink.obj
+         x64\Debug\AMRAudioRTPSource.obj
+         x64\Debug\AMRAudioSource.obj
+         x64\Debug\AudioInputDevice.obj
+         x64\Debug\AudioRTPSink.obj
+         x64\Debug\AVIFileSink.obj
+         x64\Debug\Base64.obj
+         x64\Debug\BasicUDPSink.obj
+         x64\Debug\BasicUDPSource.obj
+         x64\Debug\BitVector.obj
+         x64\Debug\ByteStreamFileSource.obj
+         x64\Debug\ByteStreamMemoryBufferSource.obj
+         x64\Debug\ByteStreamMultiFileSource.obj
+         x64\Debug\DeviceSource.obj
+         x64\Debug\DigestAuthentication.obj
+         x64\Debug\DVVideoFileServerMediaSubsession.obj
+         x64\Debug\DVVideoRTPSink.obj
+         x64\Debug\DVVideoRTPSource.obj
+         x64\Debug\DVVideoStreamFramer.obj
+         x64\Debug\EBMLNumber.obj
+         x64\Debug\FileServerMediaSubsession.obj
+         x64\Debug\FileSink.obj
+         x64\Debug\FramedFileSource.obj
+         x64\Debug\FramedFilter.obj
+         x64\Debug\FramedSource.obj
+         x64\Debug\GenericMediaServer.obj
+         x64\Debug\GSMAudioRTPSink.obj
+         x64\Debug\H261VideoRTPSource.obj
+         x64\Debug\H263plusVideoFileServerMediaSubsession.obj
+         x64\Debug\H263plusVideoRTPSink.obj
+         x64\Debug\H263plusVideoRTPSource.obj
+         x64\Debug\H263plusVideoStreamFramer.obj
+         x64\Debug\H263plusVideoStreamParser.obj
+         x64\Debug\H264or5VideoFileSink.obj
+         x64\Debug\H264or5VideoRTPSink.obj
+         x64\Debug\H264or5VideoStreamDiscreteFramer.obj
+         x64\Debug\H264or5VideoStreamFramer.obj
+         x64\Debug\H264VideoFileServerMediaSubsession.obj
+         x64\Debug\H264VideoFileSink.obj
+         x64\Debug\H264VideoRTPSink.obj
+         x64\Debug\H264VideoRTPSource.obj
+         x64\Debug\H264VideoStreamDiscreteFramer.obj
+         x64\Debug\H264VideoStreamFramer.obj
+         x64\Debug\H265VideoFileServerMediaSubsession.obj
+         x64\Debug\H265VideoFileSink.obj
+         x64\Debug\H265VideoRTPSink.obj
+         x64\Debug\H265VideoRTPSource.obj
+         x64\Debug\H265VideoStreamDiscreteFramer.obj
+         x64\Debug\H265VideoStreamFramer.obj
+         x64\Debug\InputFile.obj
+         x64\Debug\JPEGVideoRTPSink.obj
+         x64\Debug\JPEGVideoRTPSource.obj
+         x64\Debug\JPEGVideoSource.obj
+         x64\Debug\Locale.obj
+         x64\Debug\MatroskaDemuxedTrack.obj
+         x64\Debug\MatroskaFile.obj
+         x64\Debug\MatroskaFileParser.obj
+         x64\Debug\MatroskaFileServerDemux.obj
+         x64\Debug\MatroskaFileServerMediaSubsession.obj
+         x64\Debug\Media.obj
+         x64\Debug\MediaSession.obj
+         x64\Debug\MediaSink.obj
+         x64\Debug\MediaSource.obj
+         x64\Debug\MP3ADU.obj
+         x64\Debug\MP3ADUdescriptor.obj
+         x64\Debug\MP3ADUinterleaving.obj
+         x64\Debug\MP3ADURTPSink.obj
+         x64\Debug\MP3ADURTPSource.obj
+         x64\Debug\MP3ADUTranscoder.obj
+         x64\Debug\MP3AudioFileServerMediaSubsession.obj
+         x64\Debug\MP3AudioMatroskaFileServerMediaSubsession.obj
+         x64\Debug\MP3FileSource.obj
+         x64\Debug\MP3Internals.obj
+         x64\Debug\MP3InternalsHuffman.obj
+         x64\Debug\MP3InternalsHuffmanTable.obj
+         x64\Debug\MP3StreamState.obj
+         x64\Debug\MP3Transcoder.obj
+         x64\Debug\MPEG1or2AudioRTPSink.obj
+         x64\Debug\MPEG1or2AudioRTPSource.obj
+         x64\Debug\MPEG1or2AudioStreamFramer.obj
+         x64\Debug\MPEG1or2Demux.obj
+         x64\Debug\MPEG1or2DemuxedElementaryStream.obj
+         x64\Debug\MPEG1or2DemuxedServerMediaSubsession.obj
+         x64\Debug\MPEG1or2FileServerDemux.obj
+         x64\Debug\MPEG1or2VideoFileServerMediaSubsession.obj
+         x64\Debug\MPEG1or2VideoRTPSink.obj
+         x64\Debug\MPEG1or2VideoRTPSource.obj
+         x64\Debug\MPEG1or2VideoStreamDiscreteFramer.obj
+         x64\Debug\MPEG1or2VideoStreamFramer.obj
+         x64\Debug\MPEG2IndexFromTransportStream.obj
+         x64\Debug\MPEG2TransportFileServerMediaSubsession.obj
+         x64\Debug\MPEG2TransportStreamAccumulator.obj
+         x64\Debug\MPEG2TransportStreamFramer.obj
+         x64\Debug\MPEG2TransportStreamFromESSource.obj
+         x64\Debug\MPEG2TransportStreamFromPESSource.obj
+         x64\Debug\MPEG2TransportStreamIndexFile.obj
+         x64\Debug\MPEG2TransportStreamMultiplexor.obj
+         x64\Debug\MPEG2TransportStreamTrickModeFilter.obj
+         x64\Debug\MPEG2TransportUDPServerMediaSubsession.obj
+         x64\Debug\MPEG4ESVideoRTPSink.obj
+         x64\Debug\MPEG4ESVideoRTPSource.obj
+         x64\Debug\MPEG4GenericRTPSink.obj
+         x64\Debug\MPEG4GenericRTPSource.obj
+         x64\Debug\MPEG4LATMAudioRTPSink.obj
+         x64\Debug\MPEG4LATMAudioRTPSource.obj
+         x64\Debug\MPEG4VideoFileServerMediaSubsession.obj
+         x64\Debug\MPEG4VideoStreamDiscreteFramer.obj
+         x64\Debug\MPEG4VideoStreamFramer.obj
+         x64\Debug\MPEGVideoStreamFramer.obj
+         x64\Debug\MPEGVideoStreamParser.obj
+         x64\Debug\MultiFramedRTPSink.obj
+         x64\Debug\MultiFramedRTPSource.obj
+         x64\Debug\OggDemuxedTrack.obj
+         x64\Debug\OggFile.obj
+         x64\Debug\OggFileParser.obj
+         x64\Debug\OggFileServerDemux.obj
+         x64\Debug\OggFileServerMediaSubsession.obj
+         x64\Debug\OggFileSink.obj
+         x64\Debug\OnDemandServerMediaSubsession.obj
+         x64\Debug\ourMD5.obj
+         x64\Debug\OutputFile.obj
+         x64\Debug\PassiveServerMediaSubsession.obj
+         x64\Debug\ProxyServerMediaSession.obj
+         x64\Debug\QCELPAudioRTPSource.obj
+         x64\Debug\QuickTimeFileSink.obj
+         x64\Debug\QuickTimeGenericRTPSource.obj
+         x64\Debug\RTCP.obj
+         x64\Debug\rtcp_from_spec.obj
+         x64\Debug\RTPInterface.obj
+         x64\Debug\RTPSink.obj
+         x64\Debug\RTPSource.obj
+         x64\Debug\RTSPClient.obj
+         x64\Debug\RTSPCommon.obj
+         x64\Debug\RTSPRegisterSender.obj
+         x64\Debug\RTSPServer.obj
+         x64\Debug\RTSPServerRegister.obj
+         x64\Debug\RTSPServerSupportingHTTPStreaming.obj
+         x64\Debug\ServerMediaSession.obj
+         x64\Debug\SimpleRTPSink.obj
+         x64\Debug\SimpleRTPSource.obj
+         x64\Debug\SIPClient.obj
+         x64\Debug\StreamParser.obj
+         x64\Debug\StreamReplicator.obj
+         x64\Debug\T140TextRTPSink.obj
+         x64\Debug\TCPStreamSink.obj
+         x64\Debug\TextRTPSink.obj
+         x64\Debug\TheoraVideoRTPSink.obj
+         x64\Debug\TheoraVideoRTPSource.obj
+         x64\Debug\uLawAudioFilter.obj
+         x64\Debug\VideoRTPSink.obj
+         x64\Debug\VorbisAudioRTPSink.obj
+         x64\Debug\VorbisAudioRTPSource.obj
+         x64\Debug\VP8VideoRTPSink.obj
+         x64\Debug\VP8VideoRTPSource.obj
+         x64\Debug\VP9VideoRTPSink.obj
+         x64\Debug\VP9VideoRTPSource.obj
+         x64\Debug\WAVAudioFileServerMediaSubsession.obj
+         x64\Debug\WAVAudioFileSource.obj
+         liveMedia.vcxproj -> D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\x64\Debug\liveMedia.lib
+     1>已完成生成项目“D:\workdir\3_stream_media\live555\live.2017.10.28\live555_project\liveMedia\liveMedia.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:07.00
